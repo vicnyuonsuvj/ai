@@ -75,15 +75,15 @@ a {
   font-weight: 600;
   cursor: pointer;
   transition: 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary {
   background: var(--accent);
   color: #fff;
   box-shadow: 0 10px 30px rgba(91, 140, 255, 0.35);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .primary:hover {
