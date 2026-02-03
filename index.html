@@ -14,7 +14,7 @@
           <a href="#models">Модели</a>
           <a href="#chats">Чаты</a>
           <a href="#cabinet">Личный кабинет</a>
-          <button class="primary">Войти</button>
+          <a class="primary" href="#cabinet">Войти</a>
         </nav>
       </div>
     </header>
@@ -152,7 +152,7 @@
         <div class="container">
           <div class="section-header">
             <h2>Личный кабинет</h2>
-            <p>Управляйте профилем, подписками и аналитикой использования.</p>
+            <p>Управляйте профилем, подписками и поддержкой чатов.</p>
           </div>
           <div class="profile-grid">
             <div class="profile-card">
@@ -170,6 +170,30 @@
               <p>Мониторинг запросов, затрат и эффективности моделей.</p>
               <button class="ghost">Открыть отчёт</button>
             </div>
+          </div>
+          <div class="support-card">
+            <div>
+              <h3>Поддержка чатов</h3>
+              <p>Отправьте сообщение в поддержку прямо из кабинета.</p>
+              <div class="support-status">
+                <span>Онлайн</span>
+                <small>Среднее время ответа: 5 минут</small>
+              </div>
+            </div>
+            <form class="support-form">
+              <label>
+                Тема обращения
+                <input type="text" placeholder="Например: подключение модели" />
+              </label>
+              <label>
+                Сообщение
+                <textarea rows="4" placeholder="Опишите проблему или запрос..."></textarea>
+              </label>
+              <div class="support-actions">
+                <button class="ghost" type="button">Прикрепить файл</button>
+                <button class="primary" type="submit">Отправить сообщение</button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
