@@ -13,9 +13,8 @@
         <nav class="nav">
           <a href="#models">Модели</a>
           <a href="#chats">Чаты</a>
-          <a href="#cabinet">Личный кабинет</a>
-          <a class="primary" href="#cabinet">Войти</a>
         </nav>
+        <a class="primary" href="#cabinet">Перейти в кабинет</a>
       </div>
     </header>
 
@@ -32,7 +31,6 @@
             <div class="hero-actions">
               <button class="primary">Создать чат</button>
               <button class="ghost">Посмотреть демо</button>
-              <a class="ghost" href="#cabinet">Перейти в личный кабинет</a>
             </div>
             <div class="hero-stats">
               <div>
@@ -63,6 +61,11 @@
               <span class="pill">Gemini 2.0</span>
               <button class="primary">Запустить</button>
             </div>
+            <img
+              class="hero-image"
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+              alt="Интерфейс нейросетей"
+            />
           </div>
         </div>
       </section>
@@ -82,6 +85,11 @@
                 <li>Гибкие тарифы</li>
                 <li>Единые ключи доступа</li>
               </ul>
+              <img
+                class="card-image"
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+                alt="Каталог моделей"
+              />
             </article>
             <article class="card">
               <h3>Умные чаты</h3>
@@ -91,6 +99,11 @@
                 <li>Мульти-модельные цепочки</li>
                 <li>Контроль контекста</li>
               </ul>
+              <img
+                class="card-image"
+                src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80"
+                alt="Командная работа"
+              />
             </article>
             <article class="card">
               <h3>Командная работа</h3>
@@ -100,6 +113,11 @@
                 <li>Согласование ответов</li>
                 <li>История изменений</li>
               </ul>
+              <img
+                class="card-image"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+                alt="Совместная работа"
+              />
             </article>
           </div>
         </div>
@@ -175,26 +193,37 @@
           <div class="support-card">
             <div>
               <h3>Поддержка чатов</h3>
-              <p>Отправьте сообщение в поддержку прямо из кабинета.</p>
+              <p>Диалог с поддержкой прямо из кабинета.</p>
               <div class="support-status">
                 <span>Онлайн</span>
                 <small>Среднее время ответа: 5 минут</small>
               </div>
+              <img
+                class="support-image"
+                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80"
+                alt="Служба поддержки"
+              />
             </div>
-            <form class="support-form">
-              <label>
-                Тема обращения
-                <input type="text" placeholder="Например: подключение модели" />
-              </label>
-              <label>
-                Сообщение
-                <textarea rows="4" placeholder="Опишите проблему или запрос..."></textarea>
-              </label>
-              <div class="support-actions">
-                <button class="ghost" type="button">Прикрепить файл</button>
-                <button class="primary" type="submit">Отправить сообщение</button>
+            <div class="support-chat">
+              <div class="chat-thread">
+                <div class="chat-bubble agent">
+                  Здравствуйте! Чем можем помочь с настройкой чатов?
+                  <span>Саппорт · 10:42</span>
+                </div>
+                <div class="chat-bubble user">
+                  Нужно подключить новую модель и уведомить команду.
+                  <span>Вы · 10:43</span>
+                </div>
+                <div class="chat-bubble agent">
+                  Уже готовим инструкции. Уточните, какую модель подключаем.
+                  <span>Саппорт · 10:44</span>
+                </div>
               </div>
-            </form>
+              <form class="chat-input">
+                <input type="text" placeholder="Введите сообщение..." />
+                <button class="primary" type="submit">Отправить</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -212,7 +241,6 @@
           <a href="#">Поддержка</a>
         </div>
         <button class="primary">Запросить доступ</button>
-        <a class="ghost" href="#cabinet">Личный кабинет</a>
       </div>
     </footer>
   </body>
