@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroHub — агрегатор нейросетей</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="logo">NeuroHub</div>
+        <nav class="nav">
+          <a href="#models">Модели</a>
+          <a href="#chats">Чаты</a>
+          <a href="#cabinet">Личный кабинет</a>
+          <a class="primary" href="#cabinet">Войти</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Платформа-агрегатор популярных нейросетей</p>
+            <h1>Создавайте чаты с любимыми моделями в одном месте</h1>
+            <p class="subtitle">
+              Объединяйте GPT, Claude, Gemini и локальные модели. Храните истории, настраивайте сценарии и
+              работайте в команде.
+            </p>
+            <div class="hero-actions">
+              <button class="primary">Создать чат</button>
+              <button class="ghost">Посмотреть демо</button>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong>40+</strong>
+                <span>интеграций</span>
+              </div>
+              <div>
+                <strong>120k</strong>
+                <span>активных чатов</span>
+              </div>
+              <div>
+                <strong>99.9%</strong>
+                <span>аптайм</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="card-header">Новый чат</div>
+            <div class="chat-preview">
+              <div class="message user">Нужен план маркетинга для стартапа.</div>
+              <div class="message bot">
+                Я подготовлю стратегию, каналы продвижения и бюджет. Выберите модель и отрасль.
+              </div>
+            </div>
+            <div class="chat-controls">
+              <span class="pill">GPT-4.1</span>
+              <span class="pill">Claude 3.7</span>
+              <span class="pill">Gemini 2.0</span>
+              <button class="primary">Запустить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="models" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Популярные нейросети в одном окне</h2>
+            <p>Настраивайте модели, тарифы и лимиты по командам.</p>
+          </div>
+          <div class="grid cards">
+            <article class="card">
+              <h3>AI Marketplace</h3>
+              <p>Каталог моделей с рейтингами, ценами и быстрым подключением.</p>
+              <ul>
+                <li>Сравнение характеристик</li>
+                <li>Гибкие тарифы</li>
+                <li>Единые ключи доступа</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Умные чаты</h3>
+              <p>Создавайте сценарии общения: от саппорта до генерации контента.</p>
+              <ul>
+                <li>Шаблоны промптов</li>
+                <li>Мульти-модельные цепочки</li>
+                <li>Контроль контекста</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Командная работа</h3>
+              <p>Общие рабочие пространства и ролевая модель доступа.</p>
+              <ul>
+                <li>Проекты и роли</li>
+                <li>Согласование ответов</li>
+                <li>История изменений</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="chats" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>Единый центр управления чатами</h2>
+            <p>Организуйте диалоги по темам, клиентам или проектам.</p>
+          </div>
+          <div class="chat-board">
+            <div class="board-column">
+              <h4>Черновики</h4>
+              <div class="board-card">
+                <span>Новый продукт</span>
+                <small>GPT-4.1 + Gemini</small>
+              </div>
+              <div class="board-card">
+                <span>Копирайтинг</span>
+                <small>Claude 3.7</small>
+              </div>
+            </div>
+            <div class="board-column">
+              <h4>В работе</h4>
+              <div class="board-card active">
+                <span>Поддержка клиентов</span>
+                <small>LLama 3.3</small>
+              </div>
+              <div class="board-card">
+                <span>Исследование рынка</span>
+                <small>Mixtral</small>
+              </div>
+            </div>
+            <div class="board-column">
+              <h4>Готово</h4>
+              <div class="board-card">
+                <span>Презентация</span>
+                <small>Gemini 2.0</small>
+              </div>
+              <div class="board-card">
+                <span>HR FAQ</span>
+                <small>GPT-4.1</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cabinet" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Личный кабинет</h2>
+            <p>Управляйте профилем, подписками и поддержкой чатов.</p>
+          </div>
+          <div class="profile-grid">
+            <div class="profile-card">
+              <h3>Профиль</h3>
+              <p>Контакты, безопасность, настройка API-ключей.</p>
+              <button class="ghost">Настроить профиль</button>
+            </div>
+            <div class="profile-card">
+              <h3>Подписки</h3>
+              <p>Гибкие планы под команды и расходные лимиты.</p>
+              <button class="ghost">Выбрать тариф</button>
+            </div>
+            <div class="profile-card">
+              <h3>Аналитика</h3>
+              <p>Мониторинг запросов, затрат и эффективности моделей.</p>
+              <button class="ghost">Открыть отчёт</button>
+            </div>
+          </div>
+          <div class="support-card">
+            <div>
+              <h3>Поддержка чатов</h3>
+              <p>Отправьте сообщение в поддержку прямо из кабинета.</p>
+              <div class="support-status">
+                <span>Онлайн</span>
+                <small>Среднее время ответа: 5 минут</small>
+              </div>
+            </div>
+            <form class="support-form">
+              <label>
+                Тема обращения
+                <input type="text" placeholder="Например: подключение модели" />
+              </label>
+              <label>
+                Сообщение
+                <textarea rows="4" placeholder="Опишите проблему или запрос..."></textarea>
+              </label>
+              <div class="support-actions">
+                <button class="ghost" type="button">Прикрепить файл</button>
+                <button class="primary" type="submit">Отправить сообщение</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <div class="logo">NeuroHub</div>
+          <p>Агрегатор нейросетей для команд и бизнеса.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Документация</a>
+          <a href="#">Безопасность</a>
+          <a href="#">Поддержка</a>
+        </div>
+        <button class="primary">Запросить доступ</button>
+      </div>
+    </footer>
+  </body>
+</html>
